@@ -1,0 +1,24 @@
+.movie-details-container {
+  display: flex;
+  padding: 15px 25px;
+  .movie-details {
+    margin-left: 12px;  
+    div {
+      margin-bottom: 5px;
+    }
+    .title {
+      color: #4a4a4a;
+      font-weight: 600;
+      font-size: 22px;
+      span {
+        color: #9b9b9b;
+        font-weight: normal;
+      }
+    }
+    .info {
+      font-size: 20px;
+      font-weight: 300;
+      color: #4a4a4a;
+    }
+  }
+}

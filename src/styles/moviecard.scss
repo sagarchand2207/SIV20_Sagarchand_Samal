@@ -1,0 +1,41 @@
+.movie-card {
+    height: 264px;
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 #000000;
+    margin: 8px;
+    padding-bottom: 25px;
+    cursor: pointer;
+    img {
+      height: 200px;
+      width: 100%;
+      border-radius: 10px 10px 0 0;
+    }
+    .title-rating {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 5px;
+      span:first-child {
+        color: #4a4a4a;
+        font-weight: 500;
+      }
+      span:last-child {
+        color: #9b9b9b;
+      }
+    }
+    .movie-info {
+      span {
+        margin: 0 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        text-align: left;
+        -webkit-box-orient: vertical;
+        color: #4a4a4a;
+      }
+    }
+  }
